@@ -60,7 +60,6 @@ console.log(matrix);
 // This function will check a location's status
 // (a location is "valid" if it is on the grid, is not 0,
 // and has not yet been visited by our algorithm)
-// Returns "valid", "invalid", "blocked", or "goal"
 const locationStatus = (location, grid) => {
 	const gridSize = grid.length;
 	const dft = location.distanceFromTop;
